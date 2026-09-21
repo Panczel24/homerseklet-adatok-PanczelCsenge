@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HomerselketDolgozat</title>
+</head>
+
+
+<body>
+  <h1>Időjárási adatok</h1>
+  <main>
+
+    <h2>Új adat </h2>
+
+    <form id="homersekletForm">
+      <label for="homerseklet">
+        Hőmérséklet:
+      </label>
+      <input type="number" id="homerseklet" required>
+      <button type="submit">Hozzáadás</button>
+    </form>
+
+
+
+    <h2>Időjárási adatok</h2>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Nap</th>
+          <th>Hőmérséklet</th>
+        </tr>
+      </thead>
+      <tbody id="homersekletTabla">
+      </tbody>
+    </table>
+
+    <br>
+
+    <button id="exportButton">Export</button>
+
+    <br>
+
+    <textarea id="exportText" rows="15"></textarea>
+
+  </main>
+
+  <script type="module" src="/src/main.ts"></script>
+
+
+</body>
+
+</html>

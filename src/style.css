@@ -1,0 +1,23 @@
+
+
+body{
+  text-align: center;
+}
+
+
+table {
+    width: 100%;
+}
+
+textarea{
+  width: 100%;
+}
+
+
+.hideg {
+    background-color: lightblue;
+}
+
+.meleg {
+    background-color: rgb(255, 191, 191);
+}
