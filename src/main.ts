@@ -88,7 +88,7 @@ document.addEventListener("DOMContentLoaded", ()=> {
   }
 
 
-  exportButton.addEventListener("click", function () {
+  exportButton.addEventListener("click", ()=> {
 
     exportText.value = JSON.stringify(adatok, null, 2);
 
